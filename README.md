@@ -15,7 +15,7 @@ Generar facturas con múltiples productos
 Mantener un historial de todas las facturas generadas
 
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
 
 HTML5: Estructura de la aplicación
 
