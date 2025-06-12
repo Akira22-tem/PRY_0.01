@@ -1,4 +1,5 @@
 Sistema de Facturación
+![image](https://github.com/user-attachments/assets/2db4aa0a-010b-4dc5-b99d-c6129c5428c1)
 
 Descripción
 
