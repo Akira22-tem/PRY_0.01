@@ -4,7 +4,7 @@
 
 ## Descripción
 
-Este es un sistema de facturación web completo desarrollado con tecnologías frontend puras (HTML, CSS, JavaScript) que permite:
+Este es un sistema de facturación web completo desarrollado con tecnologías frontend (HTML, CSS, JavaScript, Bootstrap) que permite:
 
 Gestionar clientes (registrar, editar, eliminar)
 
