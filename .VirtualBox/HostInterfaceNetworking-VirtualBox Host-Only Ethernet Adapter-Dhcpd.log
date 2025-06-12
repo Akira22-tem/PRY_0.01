@@ -1,0 +1,37 @@
+00:00:00.013209 VirtualBox DHCP Server 7.1.6 r167084 win.amd64 (Jan 21 2025 14:13:27) release log
+00:00:00.013210 Log opened 2025-02-21T18:43:21.560188500Z
+00:00:00.013211 Build Type: release
+00:00:00.013214 OS Product: Windows 11
+00:00:00.013215 OS Release: 10.0.26100
+00:00:00.013215 OS Service Pack: 
+00:00:00.287212 DMI Product Name: Vivobook Go E1504FA_E1504FA
+00:00:00.304124 DMI Product Version: 1.0
+00:00:00.304133 Firmware type: UEFI
+00:00:00.304866 Secure Boot: Disabled
+00:00:00.304896 Host RAM: 15647MB (15.2GB) total, 8681MB (8.4GB) available
+00:00:00.304900 Executable: C:\Program Files\Oracle\VirtualBox\VBoxNetDHCP.exe
+00:00:00.304901 Process ID: 13868
+00:00:00.304901 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.304901 Windows Features:
+00:00:00.304901   Core Isolation (Memory Integrity): DISABLED
+00:00:00.305106 --config:  HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.305118 --comment: HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter
+00:00:00.467020 IP address:   192.168.56.100/24
+00:00:00.467040 Address pool: 192.168.56.101 - 192.168.56.254
+00:00:00.467067 MAC address is not specified: will use generated MAC 08:00:27:9a:ee:6f
+00:00:00.467083 Db::i_enterFixedAddressAssignment: 08:00:27:9a:ee:6f: 192.168.56.100
+00:00:00.467089 loading leases from C:\Users\ASUS\.VirtualBox\HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter-Dhcpd.leases
+00:00:00.467249 Runtime error opening 'C:\Users\ASUS\.VirtualBox\HostInterfaceNetworking-VirtualBox Host-Only Ethernet Adapter-Dhcpd.leases' for reading VERR_FILE_NOT_FOUND (File not found.)
+00:00:00.533913 SUP: seg #0: R   0x00000000 LB 0x00001000
+00:00:00.533935 SUP: seg #1: R X 0x00001000 LB 0x001fb000
+00:00:00.533939 SUP: seg #2: R   0x001fc000 LB 0x00055000
+00:00:00.533943 SUP: seg #3: RW  0x00251000 LB 0x00013000
+00:00:00.533946 SUP: seg #4: R   0x00264000 LB 0x00014000
+00:00:00.533949 SUP: seg #5: RW  0x00278000 LB 0x00004000
+00:00:00.533952 SUP: seg #6: R   0x0027c000 LB 0x00009000
+00:00:00.533956 SUP: seg #7: R X 0x00285000 LB 0x00002000
+00:00:00.533959 SUP: seg #8: R   0x00287000 LB 0x00007000
+00:00:00.535497 SUP: Loaded VMMR0.r0 (C:\Program Files\Oracle\VirtualBox\VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX using the native ring-0 loader
+00:00:00.535549 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:00.535553 SUP: windbg> .reload /f C:\Program Files\Oracle\VirtualBox\VMMR0.r0=0xXXXXXXXXXXXXXXXX
+00:00:00.535932 Terminating - ifInit failed: VERR_INTNET_FLT_IF_NOT_FOUND

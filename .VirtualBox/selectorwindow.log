@@ -1,0 +1,23 @@
+00:00:01.295226 VirtualBox GUI VM Selector Window 7.1.6 r167084 win.amd64 (Jan 21 2025 14:13:52) release log
+00:00:01.295229 Log opened 2025-05-08T14:55:53.818326400Z
+00:00:01.295230 Build Type: release
+00:00:01.295236 OS Product: Windows 11
+00:00:01.295237 OS Release: 10.0.26100
+00:00:01.295238 OS Service Pack: 
+00:00:01.318414 DMI Product Name: Vivobook Go E1504FA_E1504FA
+00:00:01.326628 DMI Product Version: 1.0
+00:00:01.326641 Firmware type: UEFI
+00:00:01.327434 Secure Boot: Disabled
+00:00:01.327449 Host RAM: 15647MB (15.2GB) total, 9813MB (9.5GB) available
+00:00:01.327458 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.327459 Process ID: 15180
+00:00:01.327460 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.327460 Windows Features:
+00:00:01.327461   Core Isolation (Memory Integrity): ENABLED
+00:00:01.327684 Qt version: 6.5.3
+00:00:01.328806 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:01.373149 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:02.612567 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:47.755701 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:49.762601 GUI: UICommon: Handling aboutToQuit request..
+00:00:50.263827 GUI: UICommon: aboutToQuit request handled!

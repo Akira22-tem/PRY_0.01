@@ -1,0 +1,427 @@
+[2025-05-13 17:10:09.163]: entering -- org.netbeans.installer.Installer.main():60
+[2025-05-13 17:10:09.163]: initializing the installer engine
+[2025-05-13 17:10:09.163]:     entering -- org.netbeans.installer.Installer.<init>():95
+[2025-05-13 17:10:09.163]:     ... initializing ErrorHandler
+[2025-05-13 17:10:09.163]:     ... end of ErrorHandler initialization
+[2025-05-13 17:10:09.163]:     exiting -- org.netbeans.installer.Installer.<init>():95
+[2025-05-13 17:10:09.163]:     entering -- org.netbeans.installer.Installer.<init>():96
+[2025-05-13 17:10:09.163]:     dumping target system information
+[2025-05-13 17:10:09.163]:         system properties:
+[2025-05-13 17:10:09.163]:             awt.toolkit => sun.awt.windows.WToolkit
+[2025-05-13 17:10:09.163]:             file.encoding => Cp1252
+[2025-05-13 17:10:09.163]:             file.encoding.pkg => sun.io
+[2025-05-13 17:10:09.163]:             file.separator => \
+[2025-05-13 17:10:09.163]:             java.awt.graphicsenv => sun.awt.Win32GraphicsEnvironment
+[2025-05-13 17:10:09.163]:             java.awt.printerjob => sun.awt.windows.WPrinterJob
+[2025-05-13 17:10:09.163]:             java.class.path => C:\Users\ASUS\AppData\Local\Temp\\NBI38634.tmp\bundle.jar
+[2025-05-13 17:10:09.163]:             java.class.version => 52.0
+[2025-05-13 17:10:09.163]:             java.endorsed.dirs => C:\Program Files\Java\jre1.8.0_451\lib\endorsed
+[2025-05-13 17:10:09.163]:             java.ext.dirs => C:\Program Files\Java\jre1.8.0_451\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+[2025-05-13 17:10:09.163]:             java.home => C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:09.175]:             java.io.tmpdir => C:\Users\ASUS\AppData\Local\Temp\
+[2025-05-13 17:10:09.175]:             java.library.path => C:\Program Files\Java\jre1.8.0_451\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\TDM-GCC-64\bin;C:\Program Files\Git\cmd;C:\xampp\php;C:\Program Files\PowerShell\7\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python312\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Links;.
+[2025-05-13 17:10:09.175]:             java.runtime.name => Java(TM) SE Runtime Environment
+[2025-05-13 17:10:09.175]:             java.runtime.version => 1.8.0_451-b10
+[2025-05-13 17:10:09.175]:             java.specification.maintenance.version => 6
+[2025-05-13 17:10:09.175]:             java.specification.name => Java Platform API Specification
+[2025-05-13 17:10:09.175]:             java.specification.vendor => Oracle Corporation
+[2025-05-13 17:10:09.175]:             java.specification.version => 1.8
+[2025-05-13 17:10:09.175]:             java.vendor => Oracle Corporation
+[2025-05-13 17:10:09.175]:             java.vendor.url => https://java.oracle.com/
+[2025-05-13 17:10:09.175]:             java.vendor.url.bug => https://bugreport.sun.com/bugreport/
+[2025-05-13 17:10:09.175]:             java.version => 1.8.0_451
+[2025-05-13 17:10:09.175]:             java.vm.info => mixed mode
+[2025-05-13 17:10:09.175]:             java.vm.name => Java HotSpot(TM) 64-Bit Server VM
+[2025-05-13 17:10:09.175]:             java.vm.specification.name => Java Virtual Machine Specification
+[2025-05-13 17:10:09.175]:             java.vm.specification.vendor => Oracle Corporation
+[2025-05-13 17:10:09.175]:             java.vm.specification.version => 1.8
+[2025-05-13 17:10:09.175]:             java.vm.vendor => Oracle Corporation
+[2025-05-13 17:10:09.175]:             java.vm.version => 25.451-b10
+[2025-05-13 17:10:09.175]:             line.separator => 
+[2025-05-13 17:10:09.175]:             netbeans.default_cachedir_root => C:\Users\ASUS\AppData\Local\NetBeans\Cache
+[2025-05-13 17:10:09.175]:             netbeans.default_userdir_root => C:\Users\ASUS\AppData\Roaming\NetBeans
+[2025-05-13 17:10:09.175]:             os.arch => amd64
+[2025-05-13 17:10:09.175]:             os.name => Windows 11
+[2025-05-13 17:10:09.175]:             os.version => 10.0
+[2025-05-13 17:10:09.175]:             path.separator => ;
+[2025-05-13 17:10:09.175]:             sun.arch.data.model => 64
+[2025-05-13 17:10:09.175]:             sun.boot.class.path => C:\Program Files\Java\jre1.8.0_451\lib\resources.jar;C:\Program Files\Java\jre1.8.0_451\lib\rt.jar;C:\Program Files\Java\jre1.8.0_451\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_451\lib\jce.jar;C:\Program Files\Java\jre1.8.0_451\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_451\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_451\classes
+[2025-05-13 17:10:09.176]:             sun.boot.library.path => C:\Program Files\Java\jre1.8.0_451\bin
+[2025-05-13 17:10:09.176]:             sun.cpu.endian => little
+[2025-05-13 17:10:09.176]:             sun.cpu.isalist => amd64
+[2025-05-13 17:10:09.176]:             sun.desktop => windows
+[2025-05-13 17:10:09.176]:             sun.io.unicode.encoding => UnicodeLittle
+[2025-05-13 17:10:09.176]:             sun.java.command => org.netbeans.installer.Installer
+[2025-05-13 17:10:09.176]:             sun.java.launcher => SUN_STANDARD
+[2025-05-13 17:10:09.176]:             sun.jnu.encoding => Cp1252
+[2025-05-13 17:10:09.176]:             sun.management.compiler => HotSpot 64-Bit Tiered Compilers
+[2025-05-13 17:10:09.176]:             sun.os.patch.level => 
+[2025-05-13 17:10:09.176]:             user.country => EC
+[2025-05-13 17:10:09.176]:             user.dir => C:\Users\ASUS\Downloads
+[2025-05-13 17:10:09.176]:             user.home => C:\Users\ASUS
+[2025-05-13 17:10:09.176]:             user.language => es
+[2025-05-13 17:10:09.176]:             user.name => ASUS
+[2025-05-13 17:10:09.176]:             user.script => 
+[2025-05-13 17:10:09.176]:             user.timezone => America/Bogota
+[2025-05-13 17:10:09.176]:             user.variant => 
+[2025-05-13 17:10:09.176]:     ... end of target system information
+[2025-05-13 17:10:09.176]:     exiting -- org.netbeans.installer.Installer.<init>():96
+[2025-05-13 17:10:09.192]:     loading jni library
+[2025-05-13 17:10:09.192]:         library resource path: native/jnilib/windows/windows-x64.dll
+[2025-05-13 17:10:09.773]:         library file path: C:\Users\ASUS\AppData\Local\Temp\nbi-7746554190838179401.tmp
+[2025-05-13 17:10:09.796]:         ... successfully loaded the library
+[2025-05-13 17:10:09.796]:     entering -- org.netbeans.installer.Installer.<init>():101
+[2025-05-13 17:10:09.796]:     parsing command-line arguments
+[2025-05-13 17:10:09.796]:         ... no command line arguments were specified
+[2025-05-13 17:10:09.796]:     ... finished parsing command line arguments
+[2025-05-13 17:10:09.796]:     exiting -- org.netbeans.installer.Installer.<init>():101
+[2025-05-13 17:10:09.796]:     entering -- org.netbeans.installer.Installer.<init>():102
+[2025-05-13 17:10:09.796]:     loading engine properties
+[2025-05-13 17:10:09.796]:         loading engine properties
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.default => 600
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.gtk => 704
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.head.right.image => resource:org/netbeans/installer/wizard/wizard-description-background.png
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.nimbus => 624
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.xp => 450
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.nimbus => 512
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.title.prefix => Apache NetBeans IDE Installer
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.nimbus => 624
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.win.xp => 600
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.jdk5.resource => org/netbeans/installer/product/components/netbeans-license-jdk5.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.win.classic => 442
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.jtb.resource => org/netbeans/installer/product/components/netbeans-license-jtb.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.default => 600
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.motif => 470
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.aqua => 480
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.xp => 600
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.aqua => 480
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.jdk6.resource => org/netbeans/installer/product/components/netbeans-license-jdk6.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.default => 500
+[2025-05-13 17:10:09.796]:             loading nbi.product.suggest.install => true
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.mysql.resource => org/netbeans/installer/product/components/netbeans-license-mysql.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.icon => resource:org/netbeans/installer/wizard/wizard-icon.png
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.gtk => 528
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.aqua => 640
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.motif => 470
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.motif => 624
+[2025-05-13 17:10:09.796]:             loading nbi.product.remove.corrupted.products.silently => true
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.win.classic => 588
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.welcome.left.bottom.image => resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.resource => org/netbeans/installer/product/components/netbeans-license.txt
+[2025-05-13 17:10:09.796]:             loading nbi.macosx.application.directory.name => NetBeans IDE Installer
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.gtk => 528
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.metal => 624
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.motif => 624
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.metal => 470
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.gtk => 704
+[2025-05-13 17:10:09.796]:             loading nbi.junit.license.resource => org/netbeans/installer/product/components/junit-license.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.metal => 624
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.win.classic => 442
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.win.xp => 450
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.default => 500
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.height.nimbus => 512
+[2025-05-13 17:10:09.796]:             loading nbi.overall.license.javafx.resource => org/netbeans/installer/product/components/netbeans-license-javafx.txt
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.title.pattern => {0}
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.width.win.classic => 588
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.width.aqua => 640
+[2025-05-13 17:10:09.796]:             loading nbi.wizard.ui.swing.frame.minimum.height.metal => 470
+[2025-05-13 17:10:09.796]:     ... finished loading engine properties
+[2025-05-13 17:10:09.796]:     exiting -- org.netbeans.installer.Installer.<init>():102
+[2025-05-13 17:10:09.796]:     initializing the local directory
+[2025-05-13 17:10:09.796]:         ... custom local directory was not specified, using the default
+[2025-05-13 17:10:09.796]:         ... local directory: C:\Users\ASUS\.nbi
+[2025-05-13 17:10:09.796]:     ... finished initializing local directory
+[2025-05-13 17:10:09.843]:     entering -- org.netbeans.installer.Installer.<init>():108
+[2025-05-13 17:10:09.843]:     ... initializing Registry
+[2025-05-13 17:10:09.850]:     ... end of initializing ErrorHandler
+[2025-05-13 17:10:09.850]:     exiting -- org.netbeans.installer.Installer.<init>():108
+[2025-05-13 17:10:09.850]:     entering -- org.netbeans.installer.Installer.<init>():109
+[2025-05-13 17:10:09.850]:     ... initializing Wizard
+[2025-05-13 17:10:09.970]:         ... loading registry from resource:data/registry.xml
+[2025-05-13 17:10:10.049]:         entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.049]:         validating previous installations
+[2025-05-13 17:10:10.049]:         ... validating installations finished
+[2025-05-13 17:10:10.049]:         exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.065]:         Can`t load message in bundle org.netbeans.installer.wizard.components.panels.netbeans.Bundle for key NPrISP.installation.folders using [sun.misc.Launcher$AppClassLoader@504bae78] classloader
+[2025-05-13 17:10:10.081]:     ... end of initializing Wizard
+[2025-05-13 17:10:10.081]:     exiting -- org.netbeans.installer.Installer.<init>():109
+[2025-05-13 17:10:10.081]:     creating lock file
+[2025-05-13 17:10:10.081]:         ... created lock file: C:\Users\ASUS\.nbi\.nbilock
+[2025-05-13 17:10:10.081]:     finished creating lock file
+[2025-05-13 17:10:10.081]: ... finished initializing the engine
+[2025-05-13 17:10:10.081]: exiting -- org.netbeans.installer.Installer.main():60
+[2025-05-13 17:10:10.081]: entering -- org.netbeans.installer.Installer.main():60
+[2025-05-13 17:10:10.081]: starting the installer
+[2025-05-13 17:10:10.081]:     ... initializing look and feel
+[2025-05-13 17:10:10.081]:         ... custom look and feel class name was not specified, using system default
+[2025-05-13 17:10:10.179]:         ... class name: com.sun.java.swing.plaf.windows.WindowsLookAndFeel
+[2025-05-13 17:10:10.179]:         ... get installed L&Fs
+[2025-05-13 17:10:10.208]:         ... set specified L&F
+[2025-05-13 17:10:10.224]:         ... check headless
+[2025-05-13 17:10:10.224]:         ... creating JFileChooser object to check possible issues with UI
+[2025-05-13 17:10:10.403]:         ... could not activate defined L&F, initializing cross-platfrom one
+[2025-05-13 17:10:10.403]:         java.lang.NullPointerException
+[2025-05-13 17:10:10.403]:         	at sun.awt.shell.Win32ShellFolder2.getFileSystemPath(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at sun.awt.shell.Win32ShellFolder2.access$500(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at sun.awt.shell.Win32ShellFolder2$2.call(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at sun.awt.shell.Win32ShellFolder2$2.call(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Unknown Source)
+[2025-05-13 17:10:10.403]:         	at java.lang.Thread.run(Unknown Source)
+[2025-05-13 17:10:10.403]:         ... cross-platform L&F class-name : javax.swing.plaf.metal.MetalLookAndFeel
+[2025-05-13 17:10:10.407]:     ... initializing L&F finished
+[2025-05-13 17:10:10.831]:     NameResolver - to parse &Help!
+[2025-05-13 17:10:10.831]:     NameResolver - to parse < &Back
+[2025-05-13 17:10:10.831]:     NameResolver - to parse &Next >
+[2025-05-13 17:10:10.837]:     NameResolver - to parse Cancel
+[2025-05-13 17:10:10.837]:     NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.837]:     NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.846]:     NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.846]:     NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.846]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2025-05-13 17:10:10.874]:     NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.874]:     NameResolver - to parse Please wait while Apache NetBeans IDE installer initializes
+[2025-05-13 17:10:10.874]: ... finished starting the installer
+[2025-05-13 17:10:10.874]: exiting -- org.netbeans.installer.Installer.main():60
+[2025-05-13 17:10:10.890]: NameResolver - to parse Configuring the Installer...
+[2025-05-13 17:10:10.890]: entering -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2025-05-13 17:10:10.890]: initializing product registry
+[2025-05-13 17:10:10.890]:     entering -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2025-05-13 17:10:10.890]:     initializing product registry properties
+[2025-05-13 17:10:10.890]:         initializing local product cache directory
+[2025-05-13 17:10:10.890]:         ... C:\Users\ASUS\.nbi\product-cache
+[2025-05-13 17:10:10.890]:         initializing local product registry file
+[2025-05-13 17:10:10.890]:         copying file: C:\Users\ASUS\AppData\Local\Temp\nbi8851825024771245325\default-registry.xml to: C:\Users\ASUS\.nbi\registry.xml
+[2025-05-13 17:10:10.908]:             ... C:\Users\ASUS\.nbi\registry.xml
+[2025-05-13 17:10:10.908]:             initializing local product registry stub uri
+[2025-05-13 17:10:10.908]:             ... resource:org/netbeans/installer/product/default-registry.xml
+[2025-05-13 17:10:10.908]:             initializing bundled product registry uri
+[2025-05-13 17:10:10.908]:             ... resource:data/registry.xml
+[2025-05-13 17:10:10.908]:             initializing product registry schema uri
+[2025-05-13 17:10:10.908]:             ... resource:org/netbeans/installer/product/registry.xsd
+[2025-05-13 17:10:10.908]:             initializing remote product registries uris
+[2025-05-13 17:10:10.908]:             initializing state file schema uri
+[2025-05-13 17:10:10.908]:             ... resource:org/netbeans/installer/product/state-file.xsd
+[2025-05-13 17:10:10.908]:             initializing default state file uri
+[2025-05-13 17:10:10.908]:             ... resource:org/netbeans/installer/product/default-state-file.xml
+[2025-05-13 17:10:10.908]:             initializing target platform
+[2025-05-13 17:10:10.908]:             ... windows-x64
+[2025-05-13 17:10:10.912]:     initializing product registry properties
+[2025-05-13 17:10:10.912]:     exiting -- org.netbeans.installer.product.Registry.initializeRegistry():171
+[2025-05-13 17:10:10.914]:     ... loading registry from file:/C:/Users/ASUS/.nbi/registry.xml
+[2025-05-13 17:10:10.937]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.937]:     validating previous installations
+[2025-05-13 17:10:10.937]:     ... validating installations finished
+[2025-05-13 17:10:10.937]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.937]:     ... loading registry from resource:data/registry.xml
+[2025-05-13 17:10:10.981]:     entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.983]:     validating previous installations
+[2025-05-13 17:10:10.983]:     ... validating installations finished
+[2025-05-13 17:10:10.983]:     exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:10.985]: ... product registry initialization complete
+[2025-05-13 17:10:10.985]: exiting -- org.netbeans.installer.wizard.components.actions.InitializeRegistryAction.execute():53
+[2025-05-13 17:10:10.987]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:11.192]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:11.403]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:11.611]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:11.821]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:12.033]: NameResolver - to parse Extracting configuration logic for {0}
+[2025-05-13 17:10:12.310]: entering -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():116
+[2025-05-13 17:10:12.310]: search for all java locations
+[2025-05-13 17:10:12.517]:     checking for possible java locations in windows registry
+[2025-05-13 17:10:12.517]:         ... alternative registry view is also supported
+[2025-05-13 17:10:12.517]:         found: HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8\JavaHome = C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:12.517]:         found: HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_451\JavaHome = C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:12.520]:     ... finished
+[2025-05-13 17:10:12.520]:     checking for possible java locations in environment
+[2025-05-13 17:10:12.520]:     ... finished
+[2025-05-13 17:10:12.520]:     NameResolver - to parse $S{java.home}
+[2025-05-13 17:10:12.520]:     NameResolver - to parse $S{java.home}/..
+[2025-05-13 17:10:12.520]:     NameResolver - to parse $N{install}
+[2025-05-13 17:10:12.520]:           --- parsed to C:\Program Files
+[2025-05-13 17:10:12.539]:     NameResolver - to parse $N{install}/Java
+[2025-05-13 17:10:12.539]:           --- parsed to C:\Program Files/Java
+[2025-05-13 17:10:12.539]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:12.549]:         executing command: C:\Program Files\Java\jre1.8.0_451\bin\java.exe -classpath C:\Users\ASUS\AppData\Local\Temp\nbi8851825024771245325 TestJDK, in directory: .
+[2025-05-13 17:10:12.722]:             [stdout]: 1.8.0_451
+[2025-05-13 17:10:12.722]:             [stdout]: 25.451-b10
+[2025-05-13 17:10:12.722]:             [stdout]: Oracle Corporation
+[2025-05-13 17:10:12.722]:             [stdout]: Windows 11
+[2025-05-13 17:10:12.722]:             [stdout]: amd64
+[2025-05-13 17:10:12.722]:             [return]: 0
+[2025-05-13 17:10:12.722]:         ... command execution finished
+[2025-05-13 17:10:12.725]:         ... java.version    = 1.8.0_451
+[2025-05-13 17:10:12.725]:         ... java.vm.version = 25.451-b10
+[2025-05-13 17:10:12.725]:         ... java.vendor     = Oracle Corporation
+[2025-05-13 17:10:12.725]:         ... os.name         = Windows 11
+[2025-05-13 17:10:12.725]:         ... os.arch         = amd64
+[2025-05-13 17:10:12.725]:         ... version string : 1.8.0_451
+[2025-05-13 17:10:12.725]:         ... put jdk info to the Java map
+[2025-05-13 17:10:12.725]:     ... parsed java: 1.8.0.451.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:12.732]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:12.732]:     ... parsed java: 1.8.0.451.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:12.737]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451\bin
+[2025-05-13 17:10:12.745]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451\legal
+[2025-05-13 17:10:12.754]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451\lib
+[2025-05-13 17:10:12.762]:     investigating java home candidate: C:\Program Files\Java
+[2025-05-13 17:10:12.769]:     investigating java home candidate: C:\Program Files\Java\jdk-11
+[2025-05-13 17:10:12.784]:         executing command: C:\Program Files\Java\jdk-11\bin\java.exe -classpath C:\Users\ASUS\AppData\Local\Temp\nbi8851825024771245325 TestJDK, in directory: .
+[2025-05-13 17:10:13.055]:             [stdout]: 11.0.24
+[2025-05-13 17:10:13.055]:             [stdout]: 11.0.24+7-LTS-271
+[2025-05-13 17:10:13.055]:             [stdout]: Oracle Corporation
+[2025-05-13 17:10:13.055]:             [stdout]: Windows 11
+[2025-05-13 17:10:13.055]:             [stdout]: amd64
+[2025-05-13 17:10:13.119]:             [return]: 0
+[2025-05-13 17:10:13.119]:         ... command execution finished
+[2025-05-13 17:10:13.119]:         ... java.version    = 11.0.24
+[2025-05-13 17:10:13.119]:         ... java.vm.version = 11.0.24+7-LTS-271
+[2025-05-13 17:10:13.119]:         ... java.vendor     = Oracle Corporation
+[2025-05-13 17:10:13.119]:         ... os.name         = Windows 11
+[2025-05-13 17:10:13.119]:         ... os.arch         = amd64
+[2025-05-13 17:10:13.119]:         ... version string : 11.0.24+7-LTS-271
+[2025-05-13 17:10:13.119]:         ... put jdk info to the Java map
+[2025-05-13 17:10:13.119]:     ... parsed java: 11.0.24.0.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:13.127]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:13.127]:     ... parsed java: 1.8.0.451.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:13.133]:     investigating java home candidate: C:\Program Files\Java\latest
+[2025-05-13 17:10:13.140]:     investigating java home candidate: C:\Program Files
+[2025-05-13 17:10:13.147]:     investigating java home candidate: C:\Program Files\Adobe
+[2025-05-13 17:10:13.154]:     investigating java home candidate: C:\Program Files\AMD
+[2025-05-13 17:10:13.160]:     investigating java home candidate: C:\Program Files\Archivos comunes
+[2025-05-13 17:10:13.168]:     investigating java home candidate: C:\Program Files\Cisco Packet Tracer 8.2.2
+[2025-05-13 17:10:13.175]:     investigating java home candidate: C:\Program Files\Common Files
+[2025-05-13 17:10:13.182]:     investigating java home candidate: C:\Program Files\Docker
+[2025-05-13 17:10:13.188]:     investigating java home candidate: C:\Program Files\Git
+[2025-05-13 17:10:13.195]:     investigating java home candidate: C:\Program Files\GNS3
+[2025-05-13 17:10:13.202]:     investigating java home candidate: C:\Program Files\Google
+[2025-05-13 17:10:13.209]:     investigating java home candidate: C:\Program Files\Internet Explorer
+[2025-05-13 17:10:13.216]:     investigating java home candidate: C:\Program Files\Java
+[2025-05-13 17:10:13.223]:     investigating java home candidate: C:\Program Files\Microsoft
+[2025-05-13 17:10:13.230]:     investigating java home candidate: C:\Program Files\Microsoft Office 15
+[2025-05-13 17:10:13.237]:     investigating java home candidate: C:\Program Files\Microsoft OneDrive
+[2025-05-13 17:10:13.244]:     investigating java home candidate: C:\Program Files\Microsoft Update Health Tools
+[2025-05-13 17:10:13.252]:     investigating java home candidate: C:\Program Files\ModifiableWindowsApps
+[2025-05-13 17:10:13.260]:     investigating java home candidate: C:\Program Files\MSBuild
+[2025-05-13 17:10:13.267]:     investigating java home candidate: C:\Program Files\Npcap
+[2025-05-13 17:10:13.274]:     investigating java home candidate: C:\Program Files\Oracle
+[2025-05-13 17:10:13.281]:     investigating java home candidate: C:\Program Files\PostgreSQL
+[2025-05-13 17:10:13.288]:     investigating java home candidate: C:\Program Files\PowerShell
+[2025-05-13 17:10:13.295]:     investigating java home candidate: C:\Program Files\Reference Assemblies
+[2025-05-13 17:10:13.302]:     investigating java home candidate: C:\Program Files\SumatraPDF
+[2025-05-13 17:10:13.309]:     investigating java home candidate: C:\Program Files\Temp
+[2025-05-13 17:10:13.316]:     investigating java home candidate: C:\Program Files\Uninstall Information
+[2025-05-13 17:10:13.324]:     investigating java home candidate: C:\Program Files\Veeam
+[2025-05-13 17:10:13.331]:     investigating java home candidate: C:\Program Files\VideoLAN
+[2025-05-13 17:10:13.338]:     investigating java home candidate: C:\Program Files\Windows Defender
+[2025-05-13 17:10:13.346]:     investigating java home candidate: C:\Program Files\Windows Mail
+[2025-05-13 17:10:13.353]:     investigating java home candidate: C:\Program Files\Windows Media Player
+[2025-05-13 17:10:13.360]:     investigating java home candidate: C:\Program Files\Windows NT
+[2025-05-13 17:10:13.368]:     investigating java home candidate: C:\Program Files\Windows Photo Viewer
+[2025-05-13 17:10:13.376]:     investigating java home candidate: C:\Program Files\Windows Sidebar
+[2025-05-13 17:10:13.383]:     investigating java home candidate: C:\Program Files\WindowsApps
+[2025-05-13 17:10:13.411]:     investigating java home candidate: C:\Program Files\WindowsPowerShell
+[2025-05-13 17:10:13.418]:     investigating java home candidate: C:\Program Files\WinRAR
+[2025-05-13 17:10:13.425]:     investigating java home candidate: C:\Program Files\Wireshark
+[2025-05-13 17:10:13.433]:     investigating java home candidate: C:\Program Files\WSL
+[2025-05-13 17:10:13.441]:     investigating java home candidate: C:\Program Files\Zoom
+[2025-05-13 17:10:13.448]:     investigating java home candidate: C:\Program Files\Java
+[2025-05-13 17:10:13.455]:     investigating java home candidate: C:\Program Files\Java\jdk-11
+[2025-05-13 17:10:13.455]:     ... parsed java: 11.0.24.0.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:13.461]:     investigating java home candidate: C:\Program Files\Java\jre1.8.0_451
+[2025-05-13 17:10:13.461]:     ... parsed java: 1.8.0.451.0 by Oracle Corporation; final=true
+[2025-05-13 17:10:13.467]:     investigating java home candidate: C:\Program Files\Java\latest
+[2025-05-13 17:10:13.683]: ... end of search for all java locations
+[2025-05-13 17:10:13.683]: exiting -- org.netbeans.installer.wizard.components.actions.netbeans.NbInitializationAction.execute():116
+[2025-05-13 17:10:13.683]: ... bundledProductSkip = null
+[2025-05-13 17:10:13.683]: ... bundledProductToInstall = null
+[2025-05-13 17:10:13.699]: NameResolver - to parse resource:org/netbeans/installer/wizard/components/panels/netbeans/resources/welcome-left-bottom.png
+[2025-05-13 17:10:13.715]: NameResolver - to parse &Help!
+[2025-05-13 17:10:13.718]: NameResolver - to parse < &Back
+[2025-05-13 17:10:13.718]: NameResolver - to parse &Next >
+[2025-05-13 17:10:13.718]: NameResolver - to parse Cancel
+[2025-05-13 17:10:13.720]: NameResolver - to parse <html><h2 style="color: #FF8E00; bold">Welcome to the Apache NetBeans IDE 25 Installer</h2>
+[2025-05-13 17:10:13.720]: NameResolver - to parse </html>
+[2025-05-13 17:10:13.720]: NameResolver - to parse text/html
+[2025-05-13 17:10:13.756]: NameResolver - to parse <html>
+[2025-05-13 17:10:13.758]: NameResolver - to parse The installer will install the NetBeans IDE with the following packs and runtimes.<br>Click Customize to select the packs and runtimes to install.<br><br>
+[2025-05-13 17:10:13.758]: NameResolver - to parse text/html
+[2025-05-13 17:10:13.763]: NameResolver - to parse <html>
+[2025-05-13 17:10:13.763]: NameResolver - to parse {0}<br>
+[2025-05-13 17:10:13.763]: NameResolver - to parse {0}<br>
+[2025-05-13 17:10:13.763]: NameResolver - to parse {0}<br>
+[2025-05-13 17:10:13.763]: NameResolver - to parse {0}<br>
+[2025-05-13 17:10:13.763]: NameResolver - to parse {0}<br>
+[2025-05-13 17:10:13.763]: NameResolver - to parse </html>
+[2025-05-13 17:10:13.763]: NameResolver - to parse text/html
+[2025-05-13 17:10:13.767]: NameResolver - to parse &Customize...
+[2025-05-13 17:10:13.781]: NameResolver - to parse Installation Size: {0}
+[2025-05-13 17:10:13.783]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:13.783]: NameResolver - to parse $N{install}/NetBeans-25
+[2025-05-13 17:10:13.785]:       --- parsed to C:\Program Files/NetBeans-25
+[2025-05-13 17:10:13.785]: NameResolver - to parse 1.8.0.0.0
+[2025-05-13 17:10:13.785]: NameResolver - to parse 500.0.0
+[2025-05-13 17:10:13.785]: NameResolver - to parse .*
+[2025-05-13 17:10:13.787]: NameResolver - to parse false
+[2025-05-13 17:10:13.787]: NameResolver - to parse false
+[2025-05-13 17:10:13.789]: NameResolver - to parse false
+[2025-05-13 17:10:13.789]: ... loading registry from resource:data/registry.xml
+[2025-05-13 17:10:13.811]: entering -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:13.811]: validating previous installations
+[2025-05-13 17:10:13.811]: ... validating installations finished
+[2025-05-13 17:10:13.811]: exiting -- org.netbeans.installer.product.Registry.loadProductRegistry():982
+[2025-05-13 17:10:13.811]: NameResolver - to parse false
+[2025-05-13 17:10:13.811]: ... use Java from the first item in the overall list: C:\Program Files\Java\jdk-11
+[2025-05-13 17:10:13.811]: ... use Java that is already selected for the product: C:\Program Files\Java\jdk-11
+[2025-05-13 17:10:13.811]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:13.847]: NameResolver - to parse <dummy description>
+[2025-05-13 17:10:15.820]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:17.838]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:19.851]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:20.850]: NameResolver - to parse Insufficient disk space for extracting the installation data. Additional {1} is required in {0}.
+[2025-05-13 17:10:20.875]: NameResolver - to parse &Help!
+[2025-05-13 17:10:20.875]: NameResolver - to parse < &Back
+[2025-05-13 17:10:20.875]: NameResolver - to parse &Next >
+[2025-05-13 17:10:20.875]: NameResolver - to parse Cancel
+[2025-05-13 17:10:20.875]: NameResolver - to parse I &accept the terms in the license agreement
+[2025-05-13 17:10:20.875]: NameResolver - to parse org/netbeans/installer/product/components/netbeans-license.txt
+[2025-05-13 17:10:20.875]: NameResolver - to parse $R{org/netbeans/installer/product/components/netbeans-license.txt;UTF-8}
+[2025-05-13 17:10:20.884]: NameResolver - to parse {0}
+[2025-05-13 17:10:20.914]: NameResolver - to parse License Agreement
+[2025-05-13 17:10:20.914]: NameResolver - to parse License Agreement
+[2025-05-13 17:10:20.930]: NameResolver - to parse License Agreement
+[2025-05-13 17:10:20.930]: NameResolver - to parse License Agreement
+[2025-05-13 17:10:20.930]: NameResolver - to parse Please read the following license agreement carefully.
+[2025-05-13 17:10:20.996]: NameResolver - to parse License Agreement
+[2025-05-13 17:10:20.996]: NameResolver - to parse Please read the following license agreement carefully.
+[2025-05-13 17:10:25.098]: NameResolver - to parse C:\Program Files\NetBeans-25
+[2025-05-13 17:10:25.098]: NameResolver - to parse 1.8.0.0.0
+[2025-05-13 17:10:25.098]: NameResolver - to parse 500.0.0
+[2025-05-13 17:10:25.098]: NameResolver - to parse .*
+[2025-05-13 17:10:25.107]: NameResolver - to parse false
+[2025-05-13 17:10:25.107]: NameResolver - to parse false
+[2025-05-13 17:10:25.109]: NameResolver - to parse false
+[2025-05-13 17:10:25.109]: ... use Java that is already selected for the product: C:\Program Files\Java\jdk-11
+[2025-05-13 17:10:25.288]: An unexpected exception happened in thread AWT-EventQueue-0
+[2025-05-13 17:10:25.288]: java.lang.NullPointerException
+[2025-05-13 17:10:25.288]: 	at sun.awt.shell.Win32ShellFolder2.getFileSystemPath(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at sun.awt.shell.Win32ShellFolder2.access$500(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at sun.awt.shell.Win32ShellFolder2$10.call(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at sun.awt.shell.Win32ShellFolder2$10.call(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at sun.awt.shell.Win32ShellFolderManager2$ComInvoker$3.run(Unknown Source)
+[2025-05-13 17:10:25.288]: 	at java.lang.Thread.run(Unknown Source)
+[2025-05-13 17:10:25.288]: ... show message dialog
+[2025-05-13 17:10:25.288]:     title: Critical Error
+[2025-05-13 17:10:25.288]:     message: An unexpected exception happened in thread AWT-EventQueue-0
+[2025-05-13 17:10:25.288]:     
+[2025-05-13 17:10:25.288]:     Exception:
+[2025-05-13 17:10:25.288]:       java.lang.NullPointerException:
+[2025-05-13 17:10:25.288]:       null
+[2025-05-13 17:10:25.288]:     
+[2025-05-13 17:10:25.288]:     You can get more details about the issue in the installer log file:
+[2025-05-13 17:10:25.288]:      C:\Users\ASUS\.nbi\log\20250513171009.log
+[2025-05-13 17:10:31.565]: ... dialog closed
