@@ -26,3 +26,5 @@ JavaScript: Lógica de la aplicación
 Web Components: Uso de Custom Elements para el resumen de facturas
 
 localStorage: Persistencia de datos en el navegador 
+
+v2
